@@ -1,2 +1,1 @@
-# url-shortener-microservice
-Part of the APIs and Microservices Projects curriculum from freeCodeCamp. 
+# [URL Shortener Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice)

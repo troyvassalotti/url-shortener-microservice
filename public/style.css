@@ -1,0 +1,43 @@
+/****** Main Styling ******/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'open Sans', sans-serif;
+	color: #131112;
+	background-color: #f7f7f7;
+}
+
+code {
+  font-family: monospace;
+  padding: 2px;
+}
+
+a {
+	color: #2574A9;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+form {
+  margin: 10px 0;
+  padding: 20px;
+  max-width: 600px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  padding: 5px;
+}
+
+input[type='text'] {
+  width: 220px;
+  text-align: center;
+}

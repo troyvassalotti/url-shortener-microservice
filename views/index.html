@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>URL Shortener Microservice</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" type="text/css">
+    <link href="/public/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>URL Shortener Microservice</h1>
+      <p>So, you want to use this random domain to create short urls?</p>
+    </header>
+    <main>
+      <section>
+        <h2>How to use me:</h2>
+        <p>Type a url into the form below. You'll get a shortcode in response.</p>
+        <p>Then, navigate to /api/shorturl/<span class="bold">:number</span> (where <span class="bold">:number</span> is the shortcode you were given) and you'll be redirected to wherever you submitted.</p>
+        <form action="api/shorturl/new" method="POST">
+          <fieldset>
+            <legend>URL Shortener</legend>
+            <label for="url_input">URL:</label>
+            <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
+            <input type="submit" value="POST URL" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
